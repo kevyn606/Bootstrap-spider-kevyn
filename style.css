@@ -7,8 +7,7 @@
 }
 body{
     background-color: #090a0a;
-    width: 100vw;
-    overflow: hidden;
+    
 }
 
 .cor-card{
@@ -19,7 +18,7 @@ body{
     z-index: 1;
     top: 35%;
     padding: 2px 0;
-    width: 35vw;
+    
     
 }
 .card-1{
@@ -88,6 +87,13 @@ color: #d63d00;
 
 @media screen and (max-width:767px){
     #celular{
-        width: 100vw;
+        
+        padding: 0;
+        position: relative;
     }
+    .card-1 a{
+        background-color:#d63d00 ;
+        width: 100%;
+     
+     }
 }
