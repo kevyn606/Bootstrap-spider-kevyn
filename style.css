@@ -1,0 +1,82 @@
+.carousel{
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+body{
+    background-color: #090a0a;
+}
+
+.cor-card{
+    background-color:#1f2024 ;
+    color: white;
+    height: 20rem;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    
+}
+.card-1{
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding-left: 40px;
+    justify-content: center;
+}
+
+.card-1 h5{
+    font-size: 40px;
+}
+.card-1 p{
+    font-size: 12px;
+}
+.card-1 h6{
+    font-size: 26px;
+}
+
+.card-1 a{
+   background-color:#d63d00 ;
+width: 30rem;
+}
+.card-1 i{
+    
+    font-size: 30px;
+    
+}
+.card-1 i:hover{
+color: #d63d00;
+}
+.botão{
+    display:flex ;
+    gap: 20px;
+   
+}
+.meio{
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+}
+
+.cor-2{
+    background-color:#1f2024;
+    color: white;
+    
+    
+}
+
+.btn{
+    background-color:#d63d00 ;
+    border: none;
+}
+.butao-card{
+    display: flex;
+    gap:20px ;
+}
+.butao-card i{
+    font-size: 20px;
+}
+
+.espaco{
+    margin-top: 50px;
+}
